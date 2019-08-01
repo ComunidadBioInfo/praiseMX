@@ -3,4 +3,8 @@ fijas_positivas <-  c("Ya la hiciste.",
                       "Te la pelan.",
                       "Sigue así.",
                       "Eres unx buenazx.",
-                      "")
+                      "Programas bien perrón.",
+                      "Estás con tokio.",
+                      "Salu2 Kli2.",
+                      "Puedes eso y más.",
+                      "Te lo van a aceptar en CRAN.")
