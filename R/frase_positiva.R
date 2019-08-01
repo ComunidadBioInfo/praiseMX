@@ -1,4 +1,4 @@
-fijas_positivas <-  c("Ya la hiciste.",
+frase_positiva <-  c("Ya la hiciste.",
                       "Ya estás del otro lado.",
                       "Te la pelan.",
                       "Sigue así.",

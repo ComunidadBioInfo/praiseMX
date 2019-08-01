@@ -1,4 +1,4 @@
-tradicionales_positivas <- c("A cada capillita le llega su fiestecita.",
+refranes_positivos <- c("A cada capillita le llega su fiestecita.",
                              "Abuelita soy tu nieto.",
                              "Te hace lo que el viento a Juárez.",
                              "El que nace pa tamal del cielo le caen las hojas.",
