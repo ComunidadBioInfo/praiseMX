@@ -1,0 +1,10 @@
+exclamacion_positiva <- c("¡Eso!",
+                          "¡Qué padre!",
+                          "¡Bien!",
+                          "¡Simón!",
+                          "¡Chingón!",
+                          "¡A huevo!",
+                          "¡Chido!",
+                          "¡Cámara!",
+                          "¡Súper!",
+                          "¡Chilo!")
