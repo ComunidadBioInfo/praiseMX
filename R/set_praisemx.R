@@ -1,0 +1,1 @@
+set_praisemx <- function() options(error = praise_error)
