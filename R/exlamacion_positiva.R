@@ -4,7 +4,11 @@ exclamacion_positiva <- c("¡Eso!",
                           "¡Simón!",
                           "¡Chingón!",
                           "¡A huevo!",
+                          "¡A wiwi!",
                           "¡Chido!",
                           "¡Cámara!",
                           "¡Súper!",
-                          "¡Chilo!")
+                          "¡Chilo!",
+                          "¡Ándale!",
+                          "¡Ah chingá!",
+                          "¡Asústame pantera!")
