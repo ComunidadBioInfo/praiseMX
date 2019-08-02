@@ -8,11 +8,10 @@
 #'
 #' @family crear_frases
 #' 
-#' @return Vector de caracteres
+#' @return Un vector de caracteres
 #'
-#' 
-#'  
-#'    
+#'
+#'
 #'          
 praise_error <- function(exclamaciones = exclamacion_negativa,
                          frases = frase_negativa,

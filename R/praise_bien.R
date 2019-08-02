@@ -8,7 +8,7 @@
 #' 
 #' @family crear_frases
 #' 
-#' @return Vector de caracteres
+#' @return Un vector de caracteres
 #' 
 #' 
 #' 
