@@ -1,3 +1,5 @@
+#' Crear frases de error estilo mexicanas
+#' 
 praise_error <- function(exclamaciones = exclamacion_negativa,
                          frases = frase_negativa,
                          refranes = refranes_negativos) {
