@@ -1,6 +1,6 @@
 context("praise_error.R")
 
-test_that("praise error_genera frase de error", {
+test_that("Evalúa que praise error genera una frase de error que es un caracter", {
 expect_is(praise_error(), "character")
 })
 
