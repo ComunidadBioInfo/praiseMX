@@ -31,5 +31,4 @@ praise_crear_comida <- function(exclamaciones, frases, comidas = comida_rica){
   print(paste(exclamacion, frase, comida))
 }
 
-
 sample1 <- function(x) sample(x, size = 1)
