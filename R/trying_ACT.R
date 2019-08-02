@@ -3,9 +3,9 @@
 create_chidas <- sample(exclamacion_positiva)
 
 
-create_chafas <- sample(fijas_positivas)
+create_chafas <- sample(frase_positiva)
 
-fp <- 
+#fp <- 
 
 refranes_negativos
 
