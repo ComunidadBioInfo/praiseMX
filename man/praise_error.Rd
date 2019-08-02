@@ -8,12 +8,19 @@ praise_error(exclamaciones = exclamacion_negativa,
   frases = frase_negativa, refranes = refranes_negativos)
 }
 \arguments{
-\item{exclamaciones}{Colección de exclamaciones que expresan fracaso}
+\item{exclamaciones}{Un vector de caracteres formado por una colección de exclamaciones que expresan frustración}
 
-\item{frases}{Colección de frases para motivar un poco}
+\item{frases}{Un vector de caracteres formado por una colección de frases para motivar un poco}
 
-\item{refranes}{Refranes cotidianos de fracaso}
+\item{refranes}{Un vector de caracteres formado por refranes cotidianos de fracaso}
+}
+\value{
+Un vector de caracteres
 }
 \description{
-Esta función genera diferentes frases a parir de un muestreo aleatorio de exclamaciones y frases, o refranes, comunes en el vocabulario dominguero mexicano.
+Esta función genera frases chidas a parir de un muestreo aleatorio de exclamaciones y frases, o refranes, comunes en el vocabulario dominguero mexicano.
 }
+\seealso{
+Other crear_frases: \code{\link{praise_bien}}
+}
+\concept{crear_frases}

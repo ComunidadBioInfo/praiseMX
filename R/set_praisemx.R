@@ -2,4 +2,6 @@
 #' para imprimir un mensaje de error adicional
 #' con español mexicano
 
-set_praisemx <- function() options(error = praise_error)
+set_praisemx <- function() {
+  options(error = praise_error)
+}
