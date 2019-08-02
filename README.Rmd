@@ -1,22 +1,25 @@
 ---
-title: "praiseMX"
-author: "CDSB19"
-date: "8/2/2019"
-output:
-  html_document:
-    keep_md: true
+output: github_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+<!-- README.md is generated from README.Rmd. Please edit that file -->
 
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
 # praiseMX
 
 Paquete basado en praise de rladies. El objetivo es generar frases mexicanas para comunicar éxitos y errores a los usuarios de un paquete de R. 
 
+## Ejemplos
+
 Si estás desarrollando un paquete, puedes utilizar la función *praise_error* para generar una frase mexicana que le de ánimos a los usuarios.
-```{r echo = F}
+```{r echo = T}
 library(praiseMX)
 ```
 
@@ -34,6 +37,4 @@ Si quieres festejar cuando las cosas van bien, puedes usar *praise_bien*.
 ```{r}
 praise_bien()
 ```
-
-
 

@@ -9,7 +9,7 @@
 #' @family crear_frases
 #' 
 #' @return Un vector de caracteres
-#'
+#' @export
 #'
 #'
 #'          
