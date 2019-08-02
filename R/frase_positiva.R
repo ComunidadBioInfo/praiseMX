@@ -7,4 +7,5 @@ frase_positiva <-  c("Ya la hiciste.",
                       "Estás con tokio.",
                       "Salu2 Kli2.",
                       "Puedes eso y más.",
-                      "Te lo van a aceptar en CRAN.")
+                      "Te lo van a aceptar en CRAN.",
+                     "mejor vamos por")
