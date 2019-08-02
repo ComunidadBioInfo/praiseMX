@@ -1,11 +1,11 @@
 #' praise_crear_emi
-#'
-#' @param exclamaciones esta es una prueba
-#' @param frases 
-#' @param refranes 
-#' @param comidas 
-#' @inheritParams 
-#' @return 
+#' 
+#' @description Esta función genera frases de motivación en función de un error o un éxito al corres un comando. Estas frases provienen del vocabulario dominguero mexicano.
+#' @param exclamaciones Es un vector de caracteres formado por una colecciones de exclamaciones populares mexicanas
+#' @param frases  Es un vector de caracteres formado por una colecciones de frases que suelen expresar los mexicanos en ciertas situaciones. 
+#' @param refranes Es un vector de caracteres formado por una colecciones de refranes que los mexicanos transmiten verbalmente a traves de las generaciones
+#' @param comidas Es un vector de caracteres que contiene una colección de comida típica mexicana
+#' @return Una oración construida por refranes y exclamaciones del vocabulario mexicano
 #' @export
 #'
 #' @examples
