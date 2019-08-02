@@ -1,3 +1,14 @@
+#' praise_crear_emi
+#'
+#' @param exclamaciones
+#' @param frases 
+#' @param refranes 
+#' @param comidas 
+#' @inheritParams praise_bien
+#' @return
+#' @export
+#'
+#' @examples
 praise_crear_emi <- function(exclamaciones, frases, refranes, comidas = comida_rica){
   tipo_de_praise <- sample1(c("frase","refran"))
   
@@ -25,5 +36,7 @@ praise_crear_frase <- function(exclamaciones , frases, comidas){
 praise_crear_refran <- function(refranes){
   print(sample1(refranes))
 }
- 
+
 sample1 <- function(x) sample(x, size = 1)
+
+
