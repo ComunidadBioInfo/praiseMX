@@ -1,11 +1,11 @@
 #' praise_crear_emi
 #'
-#' @param exclamaciones
+#' @param exclamaciones esta es una prueba
 #' @param frases 
 #' @param refranes 
 #' @param comidas 
-#' @inheritParams praise_bien
-#' @return
+#' @inheritParams 
+#' @return 
 #' @export
 #'
 #' @examples
