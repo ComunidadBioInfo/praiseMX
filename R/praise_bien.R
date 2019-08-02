@@ -9,7 +9,7 @@
 #' @family crear_frases
 #' 
 #' @return Un vector de caracteres
-#' 
+#' @export
 #' 
 #' 
 praise_bien <- function(exclamaciones = exclamacion_positiva,
