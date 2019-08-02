@@ -1,46 +1,33 @@
----
-title: "praiseMX"
-author: "CDSB19"
-date: "8/2/2019"
-output:
-  html_document:
-    keep_md: true
----
 
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+praiseMX
+========
 
+Paquete basado en praise de rladies. El objetivo es generar frases mexicanas para comunicar éxitos y errores a los usuarios de un paquete de R.
 
-# praiseMX
+Ejemplos
+--------
 
-Paquete basado en praise de rladies. El objetivo es generar frases mexicanas para comunicar éxitos y errores a los usuarios de un paquete de R. 
+Si estás desarrollando un paquete, puedes utilizar la función *praise\_error* para generar una frase mexicana que le de ánimos a los usuarios.
 
-Si estás desarrollando un paquete, puedes utilizar la función *praise_error* para generar una frase mexicana que le de ánimos a los usuarios.
+``` r
+library(praiseMX)
+```
 
-
-
-
-```r
+``` r
 praise_error()
+#> [1] "Cámara mejor vamos por unos tacos."
 ```
 
-```
-## [1] "Emborrachandote no logras nada, pero sobrio tampoco."
-```
+Si estás trabajando en Rstudio de manera interactiva, puedes cambiar las opciones de error para utilizar mensajes mexicanos con la función *set\_praisemx*.
 
-Si estás trabajando en Rstudio de manera interactiva, puedes cambiar las opciones de error para utilizar mensajes mexicanos con la función *set_praisemx*.
-
-```r
+``` r
 set_praisemx()
 ```
 
-Si quieres festejar cuando las cosas van bien, puedes usar *praise_bien*.
+Si quieres festejar cuando las cosas van bien, puedes usar *praise\_bien*.
 
-```r
+``` r
 praise_bien()
+#> [1] "¡Chido! Puedes eso y más."
 ```
-
-```
-## [1] "¡Súper! mejor vamos por unos tacos."
-```
-
-
-
